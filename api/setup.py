@@ -5,10 +5,10 @@ long_description = ""
 #    long_description = ifp.read()
 
 setup(
-    name="moonworm",
+    name="cu-exchange",
     version="0.0.1",
     packages=find_packages(),
-    package_data={"cu-index": ["py.typed"]},
+    package_data={"cu-exchange": ["py.typed"]},
     install_requires=[
         "web3",
         "bugout",
@@ -25,7 +25,7 @@ setup(
         ],
         "distribute": ["setuptools", "twine", "wheel"],
     },
-    description="cu-index",
+    description="cu-exchange",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Moonstream",
@@ -37,7 +37,7 @@ setup(
         "Topic :: Software Development :: Libraries",
     ],
     python_requires=">=3.6",
-    url="https://github.com/bugout-dev/cu-index/",
+    url="https://github.com/bugout-dev/cryptounicorns-exchange",
     # entry_points={"console_scripts": ["moonworm=moonworm.cli:main"]},
     include_package_data=True,
 )

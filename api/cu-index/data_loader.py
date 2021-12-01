@@ -47,10 +47,6 @@ def genesis_upload():
             future.result()
 
 
-# TODO: remove this
-genesis_upload()
-
-
 def process_unicorn_metadata(unicorn_metadata: UnicornMetadata):
     pass
 
